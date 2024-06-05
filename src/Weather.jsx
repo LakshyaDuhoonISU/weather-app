@@ -2,9 +2,6 @@ import { useEffect, useState } from 'react'
 import './Weather.css'
 
 function Weather() {
-
-
-
     let [city, setCity] = useState({});
     let [icon, setIcon] = useState("");
     let [cityName, setCityName] = useState("");
