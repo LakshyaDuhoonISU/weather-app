@@ -2,7 +2,9 @@ This is a weather dashboard made in React JS which has a search bar where the us
 
 It uses useEffect and useState hooks from react library which is used for managing state variables and executing functions on the change of a component's lifecycle.
 
-Hooks are functions that allow us to access the features of React. useState hook allow us to create and manage state variables whose values once changed, trigger a component rerender.
+Hooks are functions that allow us to access the features of React. 
+- useState hook allow us to create and manage state variables whose values once changed, trigger a component rerender. They retain their value even after a component rerenders. It consists of the state variables and a setter function to set their values.
+- useEffect hook allows us to execute some particular functions after a change in the component's lifecycle. It consists of the code to execute and an array of dependencies, which consists of elements whose values once changed, will call the useEffect hook.
 
 To install - 
 1. First download the ZIP file
