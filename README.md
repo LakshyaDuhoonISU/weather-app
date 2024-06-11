@@ -1,4 +1,4 @@
-This is a weather dashboard made in React JS which has a search bar where the user can search the weather of a particular city and see it's current temperature, humidity level, wind speed, and an icon representing the current weather of the place. It uses OpenWeatherMap API to fetch the data.
+This is a weather dashboard made using React JS which has a search bar where the user can search the weather of a particular city and see it's current temperature, humidity level, wind speed, and an icon representing the current weather of the place. It uses OpenWeatherMap API to fetch the data.
 
 It uses useEffect and useState hooks from react library which is used for managing state variables and executing functions on the change of a component's lifecycle.
 
